@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href=".//assets/favicon.png" type="image/x-icon">
+    <title>Proyecto GifOS - Gabriel Maselli</title>
+</head>
+<body>
+    <header class="header">
+        <h1>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>
+   </header>
+
+   <section class="controls" id="controls">
+    <h2>Section Nav</h2>
+    <nav class="btn-container">
+        <div class="logo">
+            <div class="back" id="back"><img src=".//assets/arrow.svg" alt="flecha atras" class="backArrow" id="backarrow"></div>
+            <div class="imglogo"><img id="imglogo" src=".//assets/gifOF_logo.png" alt=""></div>
+        </div>
+        <div class="crearGif" id="crearGif">CrearGifos</div>
+        
+        <div class="chose">
+            <div class="main-btn" id="main-btn">
+                <div class="testo">Elegir Tema</div>
+                <div class="flecha" id="flecha"><img src=".//assets/dropdown.svg" alt=""></div>
+            </div>
+            <nav class="choice" id="choice">
+                <div class="opcc" id="sailorDay">Sailor Day</div>
+                <div class="opcc" id="sailorNight">Sailor Night</div>
+            </nav>
+        </div>
+
+           
+        
+        <div class="misGifs" id="misGifs">Mis Giuifos</div>
+    </nav>
+    </section>
+
+   <section class="window" id="window">
+       <h2>Section Search</h2>
+    <div class="header" id="buscarlab">
+            Buscar
+    </div>
+   <div class="campobusqueda" id="campobusqueda">
+        <input type="text" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…" id="busqueda">
+        <button disabled="" type="button" id="buscar"><img id="lupa" src=".//assets/lupa_inactive.svg" alt="search disabled">Buscar</button>
+    </div>        
+    </section>
+
+    <section class="suggestions" id="suggestions">
+        <h2>Section Words Suggestions</h2>
+    <div class="containerSuggestions" id="containerSuggestions">
+        <input class="suggest" type="text" value="Resultado de búsqueda sugerido" id="firstSuggestion">
+        <input class="suggest" type="text" value="Un resultado similar de búsqueda" id="secondSuggestion">
+        <input class="suggest" type="text" value="Y otro más" id="thirdSuggestion">
+    </div>
+    </section>
+
+    <section class="botonera" id="botonera">
+        <h2>Searched Buttons</h2>
+
+    </section>
+
+    <section class="today" id="today">
+        <h2>Section Gifs Suggestions</h2>
+        Hoy te sugerimos:
+    </section>
+    <section class="today-4w" id="today-4w">
+        <h2>Section Container Gifs</h2>
+        <div class="viewmore">
+            <div class="contimage">
+                <div class="header">#Suggestion
+                    <img class="close" src=".//assets/button3.svg" alt="">
+                </div>
+                <img class="imgs" src=".//assets/test.gif" alt="" id="view1">
+            </div>
+            <button class="btn-searcher">Ver Mas</button>
+        </div>
+        <div class="viewmore">
+            <div class="contimage">
+                <div class="header">#Suggestion
+                    <img class="close" src=".//assets/button3.svg" alt="">
+                    
+                </div>
+                <img class="imgs" src=".//assets/test.gif" alt="" id="view2">
+            </div>
+                <button>Ver Mas</button>
+            </div>
+            <div class="viewmore">
+                <div class="contimage">
+                    <div class="header">#Suggestion
+                        <img class="close" src=".//assets/button3.svg" alt="">
+                        
+                    </div>
+                    <img class="imgs" src=".//assets/test.gif" alt="" id="view3">
+                </div> 
+                    <button>Ver Mas</button>
+                </div>
+                <div class="viewmore">
+                    <div class="contimage">
+                        <div class="header">#Suggestion
+                            <img class="close" src=".//assets/button3.svg" alt="">
+                            
+                        </div>
+                        <img class="imgs" src=".//assets/test.gif" alt="" id="view4">
+                    </div>
+                        <button>Ver Mas</button>
+                    </div>
+    </section>
+
+    <section class="tendencias" id="tendencias">
+        <h2>Section Trending Header</h2>
+        Tendencias:
+    </section>
+    
+    <section class="trending" id="trending">
+        <h2>Section Trending Gifs</h2>
+    </section>
+
+    <section class="resultados" id="resultados">
+        <h2>Section Results header</h2>
+        Resultados de búsqueda:
+    </section>
+    
+    <section class="imagenes" id="search">
+        <h2>Section Search Results Images</h2>
+    </section>
+   
+    <script src="jquery/scripts/jquery-3.4.1.min.js"></script>
+    <script src="global_functions.js"></script>
+    <script src="functionsIndex.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <title>Crear GifOS</title>
+</head>
+<body>
+    <header class="header">
+        <h1>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>
+   </header>
+
+   <section class="controls" id="controls">
+    <h2>Section Nav</h2>
+    <nav class="btn-container">
+        <div class="logo">
+            <div class="back" id="back"><img src="../assets/arrow.svg" alt="flecha atras" class="backArrow" id="backarrow"></div>
+            <div class="imglogo"><img id="imglogo" src="../assets/gifOF_logo.png" alt="logo"></div>
+        </div>
+        <div class="crearGif" id="crearGif">CrearGifos</div>
+        
+        <div class="chose">
+            <div class="main-btn" id="main-btn">
+                <div class="testo">Elegir Tema</div>
+                <div class="flecha" id="flecha"><img src="../assets/dropdown.svg" alt="flecha"></div>
+            </div>
+            <nav class="choice" id="choice">
+                <div class="opcc" id="sailorDay">Sailor Day</div>
+                <div class="opcc" id="sailorNight">Sailor Night</div>
+            </nav>
+        </div>
+
+           
+        
+        <div class="misGifs" id="misGifs">Mis Giuifos</div>
+    </nav>
+    </section>
+
+
+    <section class="cartel" id="cartel">
+        <div class="header">
+            <p id="headerr">Crear Guifos</p>
+            <img class="close" id="cross" alt="cruz" src="../assets/close.svg">
+        </div>
+        <div id="cartel-titulo" class="cartel-titulo">
+            <img src="../assets/window_img.png" alt="ventana">
+            <h5>Aquí podrás crear tus propios guifos</h5>
+        </div>
+        <div id="cuerpo" class="text-cuerpo">
+            <p>Crear tu <span>guifo</span> es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son:</p>
+            <ul>
+                <li>
+                    <p><span>1)</span> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)</p>
+                </li>
+                <li>
+                    <p><span>2)</span> Capturar tu momento guifo</p>
+                </li>
+                <li>
+                    <p><span>3)</span> Revisar el momento</p>
+                </li>
+                <li>
+                    <p><span>4)</span> Listo para subir y compartir!</p>
+                </li>
+                <li>
+                    <p>¿Quieres comenzar a crear tu <span>guifo</span> ahora?</p>
+                </li>
+            </ul>
+
+            <div class="borones-cartel" id="btn-cartel">
+                <button class="main-btn" id="cancelar">Cancelar</button>
+                <button class="main-btn" id="comenzar">Comenzar</button>
+            </div>
+           
+        </div>
+        <div id="videoCont">
+            <video id="videoContent" autoplay>
+            </video> 
+            <img src="../assets/test.gif" id="videoGuardado" alt="video">
+        </div>
+            <div class="contcamera" id="contcamera">
+                <button class="main-btn" id="stop"><img id="stop2" src="../assets/camera.svg" alt="camara"></button>
+                <button class="main-btn" id="record" onclick="comenzarGrabacion()">Capturar</button>
+            </div>
+    </section>
+
+
+<script src="../global_functions.js"></script>
+    <script src="../jquery/scripts/jquery-3.4.1.min.js"></script>
+    <script src="../functionsGifos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.6/RecordRTC.js"></script>
+</body>
+</html>
